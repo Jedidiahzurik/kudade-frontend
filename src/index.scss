@@ -1,0 +1,22 @@
+$body-col: linear-gradient(rgb(0, 0, 59), rgb(1, 1, 73));
+$col: #fff;
+
+
+body {
+  background: $body-col;
+  min-height: 100vh;
+  color: $col;
+
+  .app{
+    min-height: 100vh;
+  }
+
+  h1{
+    color: green;
+  }
+
+  .item{
+    background-color: transparent;
+    color: #fff;
+  }
+}
